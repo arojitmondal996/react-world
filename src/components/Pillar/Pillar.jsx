@@ -2,13 +2,13 @@ import React from 'react';
 
 const Pillar = () => {
     return (
-        <div className='mt-10'>
+        <div className='mt-10 mb-10'>
             <h2 className="text-4xl font-bold mb-8">Pillars of "Bangladesh 2.0"</h2>
             {/* card start here */}
             <div className='flex justify-between'>
                 {/* first card */}
-                <div className=" border-gray-700 border-2 border-opacity-10 rounded-md bg-base-100 w-72 shadow-xl">
-                    <div className='ml-10'>
+                <div className=" border-gray-700 border-2  border-opacity-10 rounded-2xl bg-base-100 w-72 shadow-xl">
+                    <div className='ml-10 mb-5'>
                         <figure>
                             <img className='items-start justify-start mt-5'
                                 src="/src/assets/card-icon.png"
@@ -21,7 +21,7 @@ const Pillar = () => {
                     </div>
                 </div>
                 {/* second card */}
-                <div className=" border-gray-700 border-2 border-opacity-10 rounded-md bg-base-100 w-72 shadow-xl">
+                <div className=" border-gray-700 border-2 border-opacity-10 rounded-2xl bg-base-100 w-72 shadow-xl">
                     <div className='ml-10'>
                         <figure>
                             <img className='items-start justify-start mt-5'
@@ -35,7 +35,7 @@ const Pillar = () => {
                     </div>
                 </div>
                 {/* third card */}
-                <div className=" border-gray-700 border-2 border-opacity-10 rounded-md bg-base-100 w-72 shadow-xl">
+                <div className=" border-gray-700 border-2 border-opacity-10 rounded-2xl bg-base-100 w-72 shadow-xl">
                     <div className='ml-10'>
                         <figure>
                             <img className='items-start justify-start mt-5'
@@ -49,7 +49,7 @@ const Pillar = () => {
                     </div>
                 </div>
                 {/* forth card */}
-                <div className=" border-gray-700 border-2 border-opacity-10 rounded-md bg-base-100 w-72 shadow-xl">
+                <div className=" border-gray-700 border-2 border-opacity-10 rounded-2xl bg-base-100 w-72 shadow-xl">
                     <div className='ml-10'>
                         <figure>
                             <img className='items-start justify-start mt-5'

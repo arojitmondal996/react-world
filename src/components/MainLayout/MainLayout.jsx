@@ -6,6 +6,10 @@ import Pillar from '../Pillar/Pillar';
 import Footer from '../Footer/Footer';
 import Vision from '../Vision/Vision';
 import Advisor from '../Advisor/Advisor';
+import Opinion from '../Opinion/Opinion';
+import RecentNews from '../RecentNews/RecentNews';
+import Donation from '../Donation/Donation';
+import Newsletter from '../Newsletter/Newsletter';
 
 const MainLayout = () => {
     return (
@@ -15,6 +19,10 @@ const MainLayout = () => {
             <Pillar/>
             <Vision/>
             <Advisor/>
+            <Opinion/>
+            <RecentNews/>
+            <Donation/>
+            <Newsletter/>
             <Footer/>
         </div>
     );

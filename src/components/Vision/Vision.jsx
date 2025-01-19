@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/card-icon.png'
 
 const Vision = () => {
     return (
@@ -13,7 +14,7 @@ const Vision = () => {
                         <div className='ml-10'>
                             <figure>
                                 <img className='items-start justify-start mt-7'
-                                    src="/src/assets/card-icon.png"
+                                    src={image}
                                     alt="Shoes" />
                             </figure>
                             <div className="mt-2">
@@ -32,7 +33,7 @@ const Vision = () => {
                         <div className='ml-10'>
                             <figure>
                                 <img className='items-start justify-start mt-7'
-                                    src="/src/assets/card-icon.png"
+                                    src={image}
                                     alt="Shoes" />
                             </figure>
                             <div className="mt-2">
@@ -51,7 +52,7 @@ const Vision = () => {
                         <div className='ml-10'>
                             <figure>
                                 <img className='items-start justify-start mt-7'
-                                    src="/src/assets/card-icon.png"
+                                    src={image}
                                     alt="Shoes" />
                             </figure>
                             <div className="mt-2">

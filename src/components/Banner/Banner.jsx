@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/hero.png'
 
 const Banner = () => {
     return (
@@ -14,7 +15,7 @@ const Banner = () => {
             </div>
             {/* Banner Right Part */}
             <div className='h-[158px] w-[371px] py-24 mr-10'>
-                <img src="/src/assets/hero.png" alt="" />
+                <img src={image} alt="" />
             </div>
         </div>
     );

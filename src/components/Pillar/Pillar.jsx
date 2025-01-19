@@ -1,5 +1,5 @@
 import React from 'react';
-
+import image from '../../assets/card-icon.png'
 const Pillar = () => {
     return (
         <div className='mt-10 mb-10'>
@@ -11,7 +11,7 @@ const Pillar = () => {
                     <div className='ml-10 mb-5'>
                         <figure>
                             <img className='items-start justify-start mt-5'
-                                src="/src/assets/card-icon.png"
+                                src={image}
                                 alt="Shoes" />
                         </figure>
                         <div className="mt-2">
@@ -25,7 +25,7 @@ const Pillar = () => {
                     <div className='ml-10'>
                         <figure>
                             <img className='items-start justify-start mt-5'
-                                src="/src/assets/card-icon.png"
+                                src={image}
                                 alt="Shoes" />
                         </figure>
                         <div className="mt-2">
@@ -39,7 +39,7 @@ const Pillar = () => {
                     <div className='ml-10'>
                         <figure>
                             <img className='items-start justify-start mt-5'
-                                src="/src/assets/card-icon.png"
+                                src={image}
                                 alt="Shoes" />
                         </figure>
                         <div className="mt-2">
@@ -53,7 +53,7 @@ const Pillar = () => {
                     <div className='ml-10'>
                         <figure>
                             <img className='items-start justify-start mt-5'
-                                src="/src/assets/card-icon.png"
+                                src={image}
                                 alt="Shoes" />
                         </figure>
                         <div className="mt-2">

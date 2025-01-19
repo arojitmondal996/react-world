@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/quote-bg.png'
 
 const Advisor = () => {
     return (
@@ -7,7 +8,7 @@ const Advisor = () => {
             <div className='relative'>
                 {/* image qutation */}
                 <div className='absolute justify-start'>
-                    <img src="/src/assets/quote-bg.png" alt="" />
+                    <img src={image} alt="" />
                 </div>
             </div>
             {/* for text */}
